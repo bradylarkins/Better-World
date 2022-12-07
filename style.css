@@ -87,7 +87,9 @@
   background-color: black;
   opacity: 85%;
   position: relative;
-  left: 25%
+  left: 25%;
+  top: 100%;
+  
 }
 
 #wave{
@@ -203,7 +205,8 @@ padding-top: 20px;
  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -200px;
+  margin-top: -100px;
+  width: 550px;
  
 
   
@@ -279,7 +282,7 @@ margin-top: 100px;
     border: #131618;
 }
 .border img:hover{
-    box-shadow: 0 0 0 5px #847252;
+    box-shadow: 0 0 0 5px #A06C4F;
     transition: .5s ease;
     }
     .grow img{
@@ -298,4 +301,297 @@ margin-top: 100px;
         border: none;
         margin-top: 10px;
     }
-   
+   #logoverytop{
+    margin-top: -30px;
+   }
+   /* footer css */
+   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #131618;
+  height: 55vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.footer-distributed{
+	background: #131618;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 35px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+    margin-top: -5%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin-top: 5px;
+}
+
+.footer-distributed h3 span{
+	color:  #A06C4F;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin-top: -20%;
+	padding-top: 50px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #A06C4F;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 ;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+    margin-top: 0px;
+    padding-left: 50px;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 20px 30px ;
+    margin-left: 30px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #A06C4F;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 10px;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #131618;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/* map css */
+body {
+    font-family: "Lato", sans-serif;
+    
+  }
+  #waves{
+      margin-top: -100px;
+  }
+  #waves1{
+     position: relative;
+      bottom: 0px;
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(48, 46, 46); */
+    background-color: #131618;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: hidden; /* Hide scrollbars */
+    opacity: 98%;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+   color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #A06C4F;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    margin-top: px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #131618;
+    color: white;
+    position: relative;
+    left: 90%;
+    border: none;
+    margin-top: 10px;
+    
+  }
+  
+  .openbtn:hover {
+    background-color: none;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: px;
+    width:100px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  #buon{
+    color: #A06C4F;
+    font-size: 48px;
+  }
+  #row2{
+    width: 100%;
+    height: 33%;
+  }
