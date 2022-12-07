@@ -1,0 +1,300 @@
+#navtext{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 30px; 
+    margin: 0px;
+    vertical-align:bottom;
+    line-height:normal;
+       
+  
+    /* Original Dimensions - Navbar text 38px, color (none) font-times new romans (no margin left was there prior) spacing needs to be adjusted accordingly */
+  }
+  #img1{
+    width: 100%;
+    height: 700px;
+    
+  }
+  #explore{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    top: 30px;
+    left: 30%;
+ 
+  
+  }
+  .row{
+    width: 100%;
+
+  }
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    
+  }
+  .border img {
+    transition: .5s ease;
+    }
+    
+    .border img:hover{
+    box-shadow: 0 0 0 5px #808080;
+    transition: .5s ease;
+    }
+#row2{
+  padding: 10px;
+  padding: right 0px; ;
+
+}
+#properties{
+  margin-top: 10px;
+}
+.rectangle {
+  height: 25px;
+  width: 100%;
+  background-color: #808080;
+}
+#col2{
+  text-align: center;
+ 
+}
+#bottom{
+  font-size: 40px;
+  padding-top: 49px;
+  font-style: bold;
+}
+.callnow{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+
+ .rec{
+  border-radius: 25px;
+  height: 700px;
+  width: 50%;
+  background-color: black;
+  opacity: 85%;
+  position: relative;
+  left: 25%
+}
+
+#wave{
+ margin-bottom: 0px;
+ background:(90deg  rgba(9,121,80,0.6783088235294117) 35% ,rgba(0,212,255,1) 100% );
+}
+#navtext{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  opacity: 100%;
+}
+#wave{
+  opacity: 35%;
+}
+#back{
+  background-color: rgb(5, 5, 59);
+  margin-top: 0%;
+  padding: 0px;
+  
+}
+.navbar-default{
+  background-color: black;
+  border: none;
+  opacity: 65%;
+  
+
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: none;
+ 
+}
+
+.image2 {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  border:none;
+
+}
+#navimage2{
+  height: 100px;
+  width: 100%;
+  
+}
+
+#myCarousel{
+  padding: 0%;
+  width: 100%;
+  max-width: 100%;
+}
+#paratext{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 200%;
+  position: absolute;
+  top: 30%;
+  padding: px;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+#paratitle{
+  color: white;
+  font-size: 54px;
+  text-align: center;
+  font-family: "Raleway";
+  padding: 10px;
+}
+
+#sent1{
+padding-top: 20px;
+
+}
+#navb {
+
+  
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navb a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  opacity: 0%;
+}
+#frame{
+  height: 500px;
+  width: 100%;
+  
+}
+#palimage{
+  opacity: 15%;
+ position: relative;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -200px;
+ 
+
+  
+  
+}
+
+
+
+
+
+
+.carousel-caption{
+  background-color: black;
+  opacity: 85%;
+  font-family: "Raleway";
+}
+#get{
+  width: 100%;
+  height: 5270px;
+  position: relative;
+  top: -190px;
+  margin-top: 100px;
+
+/* make it a little darker MB */
+  
+  
+}
+#form{
+  width: 100%;
+  position: relative;
+margin-top: 100px;
+
+}
+#calc{
+  margin-top: 82px;
+}
+
+
+#maps{
+  width: 100%;
+  height: 1000px;
+  margin-top: 0px;
+ 
+}
+.navbar-toggler{
+  
+  position: relative;
+  right: 40%;
+}
+.verytop{
+    background-color:#131618;
+    opacity: 100%;
+    position: relative;
+    top: px
+}
+#navitext{
+    opacity: 100%;
+    line-height: 40px;
+    
+}
+.carousel-item{
+    width:100%;
+    height: 780px;
+}
+#veryverytop{
+    background-color:#131618;
+    opacity: 100%;
+}
+#black{
+    background-color:#131618 ;
+}
+#properties{
+    border: #131618;
+}
+.border img:hover{
+    box-shadow: 0 0 0 5px #847252;
+    transition: .5s ease;
+    }
+    .grow img{
+        transition: 4s ease;
+        }
+        
+        .grow img:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s ease;
+        }
+    .propimage{
+        height: 500px;
+        width: auto;
+        border: none;
+        margin-top: 10px;
+    }
