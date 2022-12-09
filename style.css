@@ -322,7 +322,10 @@ section {
   text-decoration: underline;
   margin-top: 100px;
   margin-left: 50px;
+ 
+  
 }
+
 
 .footer-distributed{
 	background: #131618;
@@ -331,7 +334,8 @@ section {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 50px 35px;
+	padding: 50px 35px;  
+ 
 }
 
 .footer-distributed .footer-left,
@@ -627,3 +631,7 @@ body {
   .gradient{
     background-color: #A06C4F;
   }
+  .text-center{
+    color: white;
+  }
+  
