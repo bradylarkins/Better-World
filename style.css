@@ -183,6 +183,7 @@ margin-top: 100px; } */
     background-color:#131618;
     opacity: 100%;
     position: relative;
+
    
 }
 #navitext{
@@ -213,7 +214,7 @@ margin-top: 100px; } */
     }
   /* Logo On top */
     #logoverytop{
-    margin-top: -30px;
+    margin-top: 0px;
    }
    /* Footer Css */
    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
@@ -272,7 +273,7 @@ section {
 }
 
 .footer-distributed h3 span{
-	color:  #A06C4F;
+	color:  #054931;
 }
 
 /* Footer links */
@@ -292,7 +293,7 @@ section {
 }
 
 .footer-distributed .footer-company-name{
-	color:  #A06C4F;
+	color:  #054931;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0 ;
@@ -341,7 +342,7 @@ section {
 }
 
 .footer-distributed .footer-center p a{
-	color:  #A06C4F;
+	color:  #054931;
 	text-decoration: none;;
 }
 
@@ -465,7 +466,7 @@ body {
   }
   
   .sidebar a:hover {
-    color: #A06C4F;
+    color: #054931;
   }
   
   .sidebar .closebtn {
@@ -477,14 +478,14 @@ body {
   }
   
   .openbtn {
-    font-size: 20px;
+    font-size: 60px;
     cursor: pointer;
     background-color: #131618;
     color: white;
     position: relative;
     left: 90%;
     border: none;
-    margin-top: 10px;
+    margin-top: 40px;
     
   }
   
@@ -500,8 +501,8 @@ body {
   
   
   #buon{
-    color: #A06C4F;
-    font-size: 48px;
+    color: #054931;
+    font-size: 88px;
   }
   #row2{
     width: 100%;
@@ -519,7 +520,7 @@ body {
 }
 
   .gradient{
-    background-color: #A06C4F;
+    background-color: #054931;
   }
   .text-center{
     color: white;
@@ -563,9 +564,9 @@ body {
 
 .btn-white {
     background-color: #131618;
-    color: #A06C4F;
+    color: #054931;
     border: 10px;
-    border-color: #A06C4F;
+    border-color: #054931;
 }
 
 .btn::after {
@@ -600,7 +601,9 @@ body {
    margin-top: 2vh;
    margin-bottom: 2vh;
 }
-
+#homeimage{
+  margin-top: 50px;
+}
 @keyframes moveInBottom {
     0% {
         opacity: 0;
