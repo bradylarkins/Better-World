@@ -231,7 +231,7 @@ section {
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  text-decoration: underline;
+  
   margin-top: 100px;
   margin-left: 50px;
  
@@ -551,15 +551,15 @@ body {
     transition: all .2s;
     position: absolute;
 }
-
+/* Button CSS */
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0)
 }
 
 .btn:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
 }
 
 .btn-white {
