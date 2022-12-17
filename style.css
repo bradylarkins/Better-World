@@ -604,6 +604,9 @@ body {
 #homeimage{
   margin-top: 50px;
 }
+#drop{
+  background-color: #131618;
+}
 @keyframes moveInBottom {
     0% {
         opacity: 0;
